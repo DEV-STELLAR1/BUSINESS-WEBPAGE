@@ -1,0 +1,419 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 13px;
+}
+.button{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px;
+    margin-left: 1340px;
+    background-color: greenyellow;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.buttonborder{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.envanto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.market{
+    font-family: monospace;
+}
+.evafont{
+    font-size: 26px;
+}
+.nav{
+    display: flex;
+    padding-left: 640px;
+    padding-right: 160px;
+}
+.generalheader{
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    padding: 20px;
+    width: 1700px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.flexnav{
+    display: flex;
+}
+#bar{
+    margin-right: 30px;
+    padding-top: 40px;
+    padding-right: 26px;
+    font-size: larger;
+}
+#li{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 145px;
+    padding: 16px;
+    padding-left: 30px;
+    display: none;
+}
+#bar:hover #li{
+    display: block;
+}
+#plogo{
+    margin-left: 80px;
+    width: 40px;
+}
+#pri{
+    font-size: 44px;
+    font-family: cursive;
+}
+.compic{
+    background-image: url(fw-image_modernakontoret5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+#pyramid, #tool{
+    width: 70px;
+}
+#heart{
+    width: 90px;
+} 
+#globe{
+    margin-top: -24px;
+    width: 130px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444;
+}
+ .globe, .tool, .heart, .pyramid{
+    margin-left: 30px;
+    text-align: center;
+ }
+ .min{
+    font-size: 30px;
+ }
+ .minf{
+    line-height: 1.74;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+ #best{
+    color: #444;
+    text-align: center;
+    font-size: larger;
+ }
+ .work{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 80px;
+ }
+ .cust{
+    text-align: center;
+    font-size: larger;
+ }
+ .testim{
+    font-size: largeR;
+    line-height: 1.6;
+ }
+ hr{
+    background-color: red;
+ }
+ #img1, #img2, #img3, #img4, #img5, #img6{
+    width: 450px;
+ } 
+ .recentback{
+    background-color: #eee;
+    padding-top: 20px;
+ }
+ .grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.6fr 1.6fr;
+    gap: 26px;
+    background-color: #eee;
+    padding-left: 100px;
+    padding-right: 100px;
+ }
+ .name{
+    display: inline-block;
+    background-color: white;
+    padding: 16px;
+    text-align: center;
+    width: 300px;
+ }
+ #fonts{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ .container{
+    position: relative;
+    margin-top: 100px;
+ }
+ .clean{
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top:350px;
+    text-align: center;
+    left: 400px;
+ }
+ .hrs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .text{
+    font-size: 40px;
+    position: absolute;
+    top: 200px;
+    left: 480px;
+    color: white;
+    opacity: 0.9;
+ }
+ #hr{
+    top: 300px; 
+    width: 240px;
+ }
+ .purchase{
+    border: 1PX solid white;
+    display: inline-block;
+    padding: 17px;
+    position: absolute;
+    top: 550px;
+    color: white;
+    font-size: x-large;
+ }
+ .purbord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .purbord :hover{
+    background-color: #eee;    
+    opacity: 0.3;
+    color: black;
+ }
+ .port{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+ }
+ .general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+ }
+ .picgen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 260px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding: 70px;
+    background: url(fixed\ background.jpg) 100% 100% no-repeat fixed;
+    color: white;
+    font-size: 30px;
+ }
+ .num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+ }
+ .nu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+ }
+.align{
+    text-align: center;
+}
+.our{
+    color: #555;
+}
+.grid, .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.6fr;
+    gap: 14px;
+    padding-left: 120px;
+}
+.font{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#test{
+    text-align: center;
+}
+.hr{
+    width: 60px;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-bottom: 100px;
+}
+.testimonial{
+    background-color: #eee;
+    padding-top: 100px;
+}
+.pics{
+    display: block;
+    float: left;
+    width: 170px;
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 50px;
+}
+#john{
+    font-size: 28px;
+}
+.background{
+    background-color: white;
+    padding: 50px;
+}
+#blog{
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center; 
+}
+#post{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: large;
+}
+.grid5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 140px;
+}
+#fully{
+    font-size: 29px;
+    padding-top: 16px;
+}
+#travel{
+    color: #999;
+    font-size: medium;
+    margin-left: 40px;
+}
+.icon{
+    font-size: 66px;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    padding: 6px;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.grid6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.footer{
+    background-color: #444;
+    display: inline-block;
+    color: #fff;
+}
+.grid7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.blue:hover{
+    background-color: blue;
+}
+.pink:hover{
+    background-color: hotpink;
+}
+.red:hover{
+    background-color: red;
+}
+.skyblue:hover{
+    background-color: lightblue;
+}
+.orange:hover{
+    background-color: orangered;
+}
+.lightblue:hover{
+    background-color: rgb(26, 146, 226);
+}
+.border{
+    border-bottom: 0.1px solid #f6f6f6;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+#categories{
+    margin-right: 0px;
+}
+.paragraph{
+    font-family: sans-serif;
+    margin-left: 140px;
+    line-height: 1.76;
+}
+.sans{
+    font-family: sans-serif;
+}
+.primaryfont{
+    font-family: cursive;
+    margin-top: 50px;
+}
+.flex1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+table, td{
+    border-bottom: 1px solid #fff;
+    border-collapse: collapse;
+    padding: 20px;
+}
+td{
+    width: 200px;
+}
+h1{
+    font-family: cursive;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.ending{
+    display: flex;
+    gap: 760px;
+    padding: 18px;
+}
+ul{
+    display: block;
+    float: right;
+}
+#home{
+    display: flex;
+    text-align: right;
+}
+.generalgeneral{
+    margin-left: 100px;
+    margin-right: 100px;
+}
